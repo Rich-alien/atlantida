@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'MontserratMedium', sans-serif;
+    font-display: block;
+    font-style: normal;
+    src: url(~assets/fonts/Montserrat/Montserrat-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'MontserratBold', sans-serif;
+    font-display: block;
+    font-style: normal;
+    src: url(~assets/fonts/Montserrat/Montserrat-Bold.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'CrimsonText', serif;
+    font-display: block;
+    font-style: normal;
+    src: url(~assets/fonts/CrimsonText/CrimsonText-Regular.ttf) format("ttf");
+}
+@font-face {
+	font-family: 'Amsdam', serif;
+	font-display: block;
+	font-style: normal;
+	src: url(~assets/fonts/Amsdam/10200.ttf) format("ttf");
+}
