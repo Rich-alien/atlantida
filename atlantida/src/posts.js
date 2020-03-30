@@ -1,5 +1,6 @@
 module.exports = [
 	{
+		id:'post1',
 		image: '../imgTest/img_postOne.png',
 		title: 'Donec id lobortis tellus. Maecenas vel dignissim',
 		data: 'By Admin / 07 October 2015',
@@ -7,6 +8,7 @@ module.exports = [
 		style:'news',
 	},
 	{
+		id: 'post2',
 		title: 'Donec id lobortis tellus. Maecenas vel dignissim',
 		data: 'By Admin / 07 October 2015',
 		text: 'Nullam lobortis, turpis lobortis placerat 	vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis	placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.',
@@ -14,6 +16,7 @@ module.exports = [
 		style: 'Branding',
 	},
 	{
+		id: 'post3',
 		title: 'Donec id lobortis tellus. Maecenas vel dignissim',
 		data: 'By Admin / 07 October 2015',
 		text:  'Nullam lobortis, turpis lobortis placerat 	vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis	placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.',
@@ -21,6 +24,7 @@ module.exports = [
 		style: 'Branding',
 	},
 	{
+		id: 'post4',
 		title: 'Donec id lobortis tellus. Maecenas vel dignissim',
 		data: 'By Admin / 07 October 2015',
 		text: 'Nullam lobortis, turpis lobortis placerat 	vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis	placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.',
@@ -28,6 +32,7 @@ module.exports = [
 		style: 'Branding',
 	},
 	{
+		id: 'post5',
 		title: 'Donec id lobortis tellus. Maecenas vel dignissim',
 		data: 'By Admin / 07 October 2015',
 		text: 'Nullam lobortis, turpis lobortis placerat 	vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis	placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.',

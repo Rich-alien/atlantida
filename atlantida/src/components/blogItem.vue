@@ -1,5 +1,6 @@
 <template>
 <div id="posi">
+	<!-- для blog.vue -->
 	<div class="container">
   <div class="blog" v-for="post in posts" :key="post.num"> 
 		<img src="./post/img_postOne.png" class="img">
@@ -12,7 +13,7 @@
 			<div class="icon-style">{{post.style}}</div>
 		</div>
 		<div class="text_post">{{post.text}}</div>
-	<router-link to="/blog/post">
+		<router-link to="/blog/post">
 		<div v-on:click="open += 1" class="div">
 		<btn  msg="Read More" class="btn_post"/>
 		</div>

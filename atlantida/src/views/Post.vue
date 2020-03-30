@@ -12,6 +12,9 @@
 		<div class="main">
 			<div class="news">
 						<blogItem/>
+						<social/>
+						<viewComent/>
+						<typeComent/>
 			</div>
 			<div class="search-and-class">
 				<searchAndClass/>
@@ -27,13 +30,17 @@ import NavHeader from "../components/NavHeader.vue";
 import underHead from "../components/underHead.vue";
 import blogItem from "../components/blogItemPost.vue";
 import searchAndClass from "../components/searchAndClass.vue";
+import social from "../components/social.vue";
+import viewComent from "../components/viewComent.vue";
 export default {
 	name: 'app2',
 	components:{
 	NavHeader,
 	underHead,
 	blogItem,
-	searchAndClass
+	searchAndClass,
+	social,
+	viewComent
 	},
 	data: function() {
 		return {
