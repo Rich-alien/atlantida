@@ -11,6 +11,7 @@
 </template>
 
 <script>
+
 export default {
 	props: {
     msg: String
@@ -18,9 +19,18 @@ export default {
 	data: function() {
 		return {
 			subtext:'Design Studio and Digital Agency',
-
+			sliderItems:[
+				{ id:1, name: 'img1', img: 'bg.png'},
+				{ id:1, name: 'img1', img: 'bg.png'},
+				{ id:1, name: 'img1', img: 'bg.png'},
+				{ id:1, name: 'img1', img: 'bg.png'},
+				{ id:1, name: 'img1', img: 'bg.png'},
+			]
     }
-  }
+	},
+	components: {
+	
+	}
 	
 }
 </script>
@@ -52,8 +62,15 @@ export default {
 		letter-spacing: 1.4px;
 		font-weight: 400;
 }
+@font-face {
+	font-family: 'Amsdam', serif;
+	font-display: block;
+	font-style: normal;
+	src: url( /src/assets/fonts/Amsdam/10200.ttf ) format("ttf");
+}
 .header-text{
 	font-family: 'Amsdam' , serif;
+	
 	color:#fff;
 	margin: 0;
 	margin-top: 23px;
@@ -71,6 +88,14 @@ export default {
 	margin-top: 44px;
 	margin-bottom: 203px;
 	padding: 15px 26px;
+	transition: all 0.8s;
+}
+.btn:hover{
+	color:#cecece;
+	background-color: #3e3d3d;
+	transition: all 0.5s;
+	border: 2px solid #3e3d3d;
+	
 }
 /* .btn:active{
 	
@@ -86,6 +111,10 @@ export default {
 		float: left;
 		margin-left: 25px;
 		margin-top: 9px;
+		transition: all 1s;
 
+}
+.btn:hover:after{
+	transform: translateY(80px);
 }
 </style>

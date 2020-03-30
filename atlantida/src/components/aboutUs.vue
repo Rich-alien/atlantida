@@ -2,7 +2,7 @@
 <div id="about">
   <main  class="main">
 		<img src="../assets/img/bgAbout.png" alt="" class="top-main">
-		<headerText msg="about us"/>
+		<!-- <headerText msg="about us"/> -->
 		
 	</main>
 	</div>

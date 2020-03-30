@@ -18,15 +18,22 @@ export default {
 	color:#3e3d3d;
 	background-color: #fff;
 	border: 2px solid #3e3d3d;
-	margin-top: 44px;
 	
 	padding: 15px 26px;
 	font-size: 13px;
 	margin-left: 2px;
 	letter-spacing: 1.47px;
+	transition: all 0.8s;
+
 }
 .btn:hover{
 	color:#cecece;
 	background-color: #3e3d3d;
+	transition: all 0.5s;
 }
+/* .btn::active{
+	color:#cecece;
+	background-color: #3e3d3d;
+	transition: all 0.5s;
+} */
 </style>

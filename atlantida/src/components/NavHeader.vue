@@ -4,14 +4,17 @@
       <img src="../assets/img/logo.png" alt="" class="img">
     </div>
     <nav class="nav">
-      <a href="#" class="nav__link">home</a>
+      <!-- <a href="#" class="nav__link">home</a> -->
+      <router-link to="/" class="nav__link">home</router-link>
       <a href="#" class="nav__link">about</a>
       <a href="#" class="nav__link">services</a>
       <a href="#" class="nav__link">history</a>
       <a href="#" class="nav__link">team</a>
       <a href="#" class="nav__link">portfolio</a>
+      <router-link to="/blog" class="nav__link">blog</router-link>
+      <!-- <a href="/blog" class="nav__link">blog</a> -->
       <a href="#" class="nav__link">prices</a>
-      <a href="#" class="nav__link">blog</a>
+      
       <a href="#" class="nav__link">contact</a>
     </nav>
     <div class="link">
@@ -25,7 +28,9 @@
         <img src="../assets/img/Behance.png" alt="" class="BehanceImg">
       </a>
     </div>
+    <!-- <router-view></router-view> -->
   </header>
+  
 </template>
 
 <script>

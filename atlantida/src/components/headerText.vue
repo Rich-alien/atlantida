@@ -3,6 +3,7 @@
 			<h1 class="text">
 				{{msg}}
 			</h1>
+			
 	</div>
 </template>
 
@@ -20,7 +21,7 @@ export default {
 	font-family: 'Amsdam' , serif;
 	color: #3e3d3d;
 	margin: 0;
-	margin-top: 23px;
+	margin-top: 70px;
 	font-size: 20px;
 	line-height: 22px;
 	text-transform: uppercase;
