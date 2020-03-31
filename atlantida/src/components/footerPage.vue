@@ -16,12 +16,12 @@
 			<div class="footer-fields">
 						<form action="" method="post">
 							<div class="top-fields">
-							<input type="text" placeholder="Name*" class="input name">
-							<input type="email" placeholder="E-mail*" class="input email">
-							<input type="tel" placeholder="Telephone*" class="input telephone">
-							<input type="text" placeholder="Website*" class="input website">
-</div>
-							<input type="text" placeholder="Message*" class="input-message">
+							<input type="text" placeholder="Name*" required class="input name">
+							<input type="email" placeholder="E-mail*" required class="input email">
+							<input type="tel" placeholder="Telephone*" required class="input telephone">
+							<input type="text" placeholder="Website*" required class="input website">
+							</div>
+							<input type="text" placeholder="Message*" required class="input-message">
 							<button class="submit">Submit</button>
 						</form>
 				</div>

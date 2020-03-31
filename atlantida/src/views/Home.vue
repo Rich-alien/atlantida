@@ -206,6 +206,8 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1600px;
+  margin: 0 auto;
 
 }
 .uppertext {

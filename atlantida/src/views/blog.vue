@@ -14,7 +14,7 @@
 						<blogItem/>
 			</div>
 			<div class="search-and-class">
-				<searchAndClass/>
+				<searchAndClass />
 				
 			</div>
 			
@@ -48,6 +48,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .footer{
 	width: 100%;
 	margin-bottom: 0;
@@ -61,6 +62,9 @@ export default {
   max-width: 1860px;
   margin: auto;
 	background-color: #e3e3e3;
+}
+.zero{
+	background-color: #e3e3e3
 }
 
 .Navcontainer {

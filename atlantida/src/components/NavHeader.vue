@@ -1,17 +1,17 @@
 <template>
   <header class="header">
-    <div class="logo">
+    <router-link to="/" class="logo">
       <img src="../assets/img/logo.png" alt="" class="img">
-    </div>
+    </router-link>
     <nav class="nav">
       <!-- <a href="#" class="nav__link">home</a> -->
-      <router-link to="/" class="nav__link">home</router-link>
-      <a href="#" class="nav__link">about</a>
+      <router-link to="/" class="nav__link act">home</router-link>
+      <a href="#" class="nav__link ">about</a>
       <a href="#" class="nav__link">services</a>
       <a href="#" class="nav__link">history</a>
       <a href="#" class="nav__link">team</a>
       <a href="#" class="nav__link">portfolio</a>
-      <router-link to="/blog" class="nav__link">blog</router-link>
+      <router-link to="/blog" class="nav__link act">blog</router-link>
       <!-- <a href="/blog" class="nav__link">blog</a> -->
       <a href="#" class="nav__link">prices</a>
       
@@ -41,6 +41,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.act{
+  color: black;
+}
 .header{
  
   padding:18px 0;

@@ -89,6 +89,7 @@ export default {
 	margin-bottom: 203px;
 	padding: 15px 26px;
 	transition: all 0.8s;
+	cursor: pointer;
 }
 .btn:hover{
 	color:#cecece;

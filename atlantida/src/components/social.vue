@@ -20,14 +20,17 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	.containerSoc{
+		
 		display: flex;
 		justify-content: center;
+		flex-direction: row;
 		padding-top: 17px;
 		padding-bottom: 17px;
 		margin-bottom: 66px;
 		width: 100%;
 		border-top: 1px solid #b7b7b7;
 		border-bottom: 1px solid #b7b7b7;
+		
 	}
 	.soc__link{
 		margin-left: 5px;
